@@ -5,26 +5,26 @@
       <div class="col-md-6">
 
         <div class="clock-card">
-          <div class="card-head" ng-class="{corporate: clock.realm.name === 'Corporate', threat: clock.realm.name === 'Threat'}">
+          <div class="card-head" ng-class="mainCtrl.setClockRealmType(clock.realm.name)">
             <span>{{clock.name}}</span>
           </div>
           <div class="card-body">
 
-            <div class="row">
-              <div class="col-xs-12">
+            <!--<div class="row">-->
+              <!--<div class="col-xs-12">-->
 
-                <span>{{clock.description}}</span>
+                <div class="clock-description">{{clock.description}}</div>
 
-              </div>
-            </div>
+              <!--</div>-->
+            <!--</div>-->
 
-            <div class="row">
-              <div class="col-xs-12">
+            <!--<div class="row">-->
+              <!--<div class="col-xs-12">-->
 
-                <span>{{clock.countdown.value}}</span>
+                <div class="clock-countdown">{{clock.countdown.value}}</div>
 
-              </div>
-            </div>
+              <!--</div>-->
+            <!--</div>-->
           </div>
         </div>
 

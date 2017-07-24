@@ -53,4 +53,13 @@ angular.module('sprawlClocksFrontApp')
         'description':'This is still another example'
       }
     ];
+
+    this.setClockRealmType = function (realmType) {
+      return {
+        corporate: (realmType === 'Corporate'),
+        threat: (realmType === 'Threat')
+      };
+    };
+
+
   });

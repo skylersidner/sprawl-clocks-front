@@ -8,6 +8,8 @@
   }
 
   .clock-card {
+    position: relative;
+    overflow: hidden;
     border: 3px solid black;
     margin: .5em;
     @include card-border-radius;
@@ -16,9 +18,14 @@
       color: white;
       padding: .5em;
       border-bottom: 3px solid black;
-      @include card-border-radius;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
+
+      //position: absolute;
+      //top: 0;
+      //left: 0;
+      width: 100%;
+      height: 40%;
 
       &.corporate {
         background-color: $boldBlue;
@@ -30,6 +37,14 @@
 
     .card-body {
       padding: .5em;
+
+      .clock-description {
+        width: 100%;
+      }
+
+      .clock-countdown {
+        width: 100%;
+      }
     }
   }
 
