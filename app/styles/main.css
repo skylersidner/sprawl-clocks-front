@@ -1,38 +1,36 @@
 /* line 10, main.scss */
 #mainPage .clock-card {
-  position: relative;
   overflow: hidden;
   border: 3px solid black;
   margin: .5em;
   border-radius: 10px;
 }
-/* line 17, main.scss */
+/* line 16, main.scss */
 #mainPage .clock-card .card-head {
   color: white;
   padding: .5em;
   border-bottom: 3px solid black;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  vertical-align: middle;
   width: 100%;
   height: 40%;
 }
-/* line 30, main.scss */
+/* line 24, main.scss */
 #mainPage .clock-card .card-head.corporate {
   background-color: #000066;
 }
-/* line 33, main.scss */
+/* line 27, main.scss */
 #mainPage .clock-card .card-head.threat {
   background-color: #660000;
 }
-/* line 38, main.scss */
+/* line 32, main.scss */
 #mainPage .clock-card .card-body {
   padding: .5em;
 }
-/* line 41, main.scss */
+/* line 35, main.scss */
 #mainPage .clock-card .card-body .clock-description {
   width: 100%;
 }
-/* line 45, main.scss */
+/* line 39, main.scss */
 #mainPage .clock-card .card-body .clock-countdown {
   width: 100%;
 }
